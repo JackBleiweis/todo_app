@@ -97,7 +97,9 @@ mutation {
 }
 ```
 
-## Notes about ruby, rails and the backend in general (For me):
+## Notes (For me):
+
+### Ruby, rails and the backend in general
 
 - `bundle install` is used to install the dependencies.
 - `bin/rails server` or `rails s` is used to start the server.
