@@ -1,4 +1,4 @@
-#My Todo App
+# My Todo App
 
 ## Backend
 
@@ -10,13 +10,33 @@ bundle install
 bin/rails server
 ```
 
+## Run tests
+
+```bash
+cd backend
+rails test test/models/todo_test.rb
+```
+
 ## Example Queries:
 
-### Fetch all todos (Optionally fetch a single todo by id):
+### Fetch all todos:
 
 ```
 query {
   todos {
+    id
+    title
+    description
+    completed
+  }
+}
+```
+
+### Fetch a single todo by id:
+
+```
+query {
+  todo(id: 1) {
     id
     title
     description
