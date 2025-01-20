@@ -12,7 +12,7 @@ bin/rails server
 
 ## Example Queries:
 
-###Fetch all todos (Optionally fetch a single todo by id):
+### Fetch all todos (Optionally fetch a single todo by id):
 
 ```
 query {
@@ -25,7 +25,7 @@ query {
 }
 ```
 
-###Create a todo:
+### Create a todo:
 
 ```
 mutation {
@@ -44,7 +44,7 @@ mutation {
 }
 ```
 
-###Update a todo:
+### Update a todo:
 
 ```
 mutation{
