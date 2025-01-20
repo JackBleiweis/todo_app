@@ -6,7 +6,7 @@ module Mutations
 
         field :todo, Types::TodoType, null: false
 
-        def resolve(title:, completed:, description:)
+        def resolve(title:, completed:, description: nil)
             todo = Todo.create!(
                 title: title,
                 description: description,
