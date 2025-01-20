@@ -33,3 +33,24 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# Root .gitignore
+# Backend
+backend/log/*
+backend/tmp/*
+!backend/log/.keep
+!backend/tmp/.keep
+backend/storage/*
+backend/config/master.key
+backend/config/credentials.yml.enc
+backend/.env
+backend/public/assets
+
+# Frontend (example - adjust based on your frontend framework)
+frontend/node_modules
+frontend/.env
+frontend/build
+frontend/dist
+
+# General
+.DS_Store
