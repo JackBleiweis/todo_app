@@ -1,5 +1,5 @@
 module Mutations
-    class CreateTodo < BaseMutation     
+    class CreateTodo < BaseMutation
         argument :title, String, required: true, validates: {length: {maximum: 255}}
         argument :description, String, required: false, validates: {length: {maximum: 1000}}
         argument :completed, Boolean, required: false, default_value: false
