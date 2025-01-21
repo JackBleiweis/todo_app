@@ -4,9 +4,6 @@
 
 To run the backend, you need to install the dependencies and start the server.
 
-(For postgres you will need to create a .env file with the correct credentials.)
-(Locally it would be POSTGRES_USER=postgres, POSTGRES_PASSWORD=, POSTGRES_HOST=localhost)
-
 ```bash
 cd backend
 bundle install
