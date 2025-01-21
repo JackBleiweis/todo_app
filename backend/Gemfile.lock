@@ -158,6 +158,7 @@ GEM
     parser (3.3.7.0)
       ast (~> 2.4.1)
       racc
+    pg (1.5.9)
     psych (5.2.3)
       date
       stringio
@@ -301,9 +302,11 @@ DEPENDENCIES
   graphql
   importmap-rails
   jbuilder
+  pg
   puma (>= 5.0)
   rack-cors
   rails (~> 7.2.2, >= 7.2.2.1)
+  rubocop
   rubocop-rails-omakase
   selenium-webdriver
   sprockets-rails
