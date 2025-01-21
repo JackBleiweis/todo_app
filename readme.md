@@ -4,9 +4,12 @@
 
 To run the backend, you need to install the dependencies and start the server.
 
+NOTE: Only run `bin/rails db:create` if you don't have the postgres db created yet.
+
 ```bash
 cd backend
 bundle install
+bin/rails db:create
 bin/rails db:migrate
 bin/rails server
 ```
